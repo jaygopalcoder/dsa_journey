@@ -83,11 +83,6 @@ class SinglyLinkedList:
         print(" -> ".join(elements) if elements else "Empty List")
             
 sll = SinglyLinkedList()
-
-
-
-
-
 a = sll.has_cycle()
 print(a)
 
