@@ -6,6 +6,7 @@ def check_sorted_array(lst:list[int])->bool:
             return False
     return True
 import numpy as np
+# Testing Data using Numpy random int array generator
 for i in range(10):
     a = np.random.randint(-23,23,10)
     print(a)
